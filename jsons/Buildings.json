@@ -20,6 +20,10 @@
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Destroyed when the city is captured",
+
+			"Only available <in cities without a [Integrational Office]>",
+			"Only available <in cities without a [Patriation of Freedom]>",
+			"Only available <in cities without a [Labor Camp]>"
 		],
 		"requiredTech": "Mathematics"
 	},
@@ -31,6 +35,11 @@
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Destroyed when the city is captured",
+
+			"Only available <after adopting [Freedom]>",
+			"Only available <in cities without a [Occupational Office]>",
+			"Only available <in cities without a [Patriation of Freedom]>",
+			"Only available <in cities without a [Labor Camp]>"
 		],
 		"requiredTech": "Mathematics"
 	},
@@ -42,6 +51,11 @@
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Destroyed when the city is captured",
+
+			"Only available <after adopting [Order]>",
+			"Only available <in cities without a [Occupational Office]>",
+			"Only available <in cities without a [Integrational Office]>",
+			"Only available <in cities without a [Labor Camp]>"
 		],
 		"requiredTech": "Mathematics"
 	},
@@ -53,6 +67,11 @@
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Destroyed when the city is captured",
+
+			"Only available <after adopting [Autocracy]>",
+			"Only available <in cities without a [Occupational Office]>",
+			"Only available <in cities without a [Integrational Office]>",
+			"Only available <in cities without a [Patriation of Freedom]>",
 		],
 		"requiredTech": "Mathematics"
 	},

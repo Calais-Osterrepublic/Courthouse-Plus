@@ -7,7 +7,52 @@
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Unbuildable",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased"
+		],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Occupational Office",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Destroyed when the city is captured",
+		],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Integrational Office",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Destroyed when the city is captured",
+		],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Patriation of Freedom",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Destroyed when the city is captured",
+		],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Labor Camp",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Mathematics"
 	},

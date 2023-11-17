@@ -15,6 +15,7 @@
 	{
 		"name": "Occupational Office",
 		"maintenance": 4,
+		"cost": 50,
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -23,13 +24,21 @@
 
 			"Only available <in cities without a [Integrational Office]>",
 			"Only available <in cities without a [Patriation of Freedom]>",
-			"Only available <in cities without a [Labor Camp]>"
+			"Only available <in cities without a [Labor Camp]>",
+
+			"[-33]% growth [in this city]",
+			"Nullifies [Culture] [in this city]",
+			"Cannot build [Military] units",
+			"[-2] Unit Supply",
+			"[-33]% [Production]",
+			"[-33]% Gold cost of acquiring tiles [in this city]"
 		],
 		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Integrational Office",
 		"maintenance": 4,
+		"cost": 300,
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -39,13 +48,19 @@
 			"Only available <after adopting [Freedom]>",
 			"Only available <in cities without a [Occupational Office]>",
 			"Only available <in cities without a [Patriation of Freedom]>",
-			"Only available <in cities without a [Labor Camp]>"
+			"Only available <in cities without a [Labor Camp]>",
+
+			"Cannot build [Military] units <when not at war>",
+			"[-1] Unit Supply",
+			"[-1] Unit Supply per [3] population [in this city]"
 		],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Printing Press"
 	},
 	{
 		"name": "Patriation of Freedom",
 		"maintenance": 4,
+		"cost": 100,
+		"food": 1,
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -55,9 +70,13 @@
 			"Only available <after adopting [Order]>",
 			"Only available <in cities without a [Occupational Office]>",
 			"Only available <in cities without a [Integrational Office]>",
-			"Only available <in cities without a [Labor Camp]>"
+			"Only available <in cities without a [Labor Camp]>",
+
+			"[+1] population [in this city]",
+			"[-1] population [in capital]",
+			"Unsellable"
 		],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Industrialization"
 	},
 	{
 		"name": "Labor Camp",
@@ -72,6 +91,20 @@
 			"Only available <in cities without a [Occupational Office]>",
 			"Only available <in cities without a [Integrational Office]>",
 			"Only available <in cities without a [Patriation of Freedom]>",
+
+			"[-66]% growth [in this city]",
+			"Nullifies Growth [in this city] <when at war>",
+			"Cannot build [Military] units <when at war>",
+			"[+2 Gold, +2 Production] per [1] population [in this city]",
+			"Automatically built in all cities where it is buildable",
+			"Nullifies [Happiness] [in this city]",
+
+			"Gain [100]-[1000] [Gold]",
+			"Gain [100]-[500] [Science]",
+			"[-1] population [in this city] <in cities with at least [2] [Population]>",
+			"[-2] population [in this city] <in cities with at least [5] [Population]>",
+			"[-5] population [in this city] <in cities with at least [10] [Population]>",
+			"[-10] population [in this city] <in cities with at least [20] [Population]>",
 		],
 		"requiredTech": "Mathematics"
 	},
